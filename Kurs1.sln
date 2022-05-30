@@ -57,7 +57,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassWork6", "ClassWork6\Cl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecialTask", "SpecialTask\SpecialTask.csproj", "{E7CF018E-298C-443C-BC4F-37B78373D53D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheStrangeProject", "TheStrangeProject\TheStrangeProject\TheStrangeProject.csproj", "{D893249B-2042-410A-B4D2-963DCCC6F450}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheStrangeProject", "TheStrangeProject\TheStrangeProject.csproj", "{D893249B-2042-410A-B4D2-963DCCC6F450}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
