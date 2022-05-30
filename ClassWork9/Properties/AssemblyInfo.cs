@@ -5,13 +5,13 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанные с этой сборкой.
-[assembly: AssemblyTitle("ClassWork9")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("ClassWork8")]
+[assembly: AssemblyDescription("My homework for 20.11.2021")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ClassWork9")]
-[assembly: AssemblyCopyright("Copyright ©  2021")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCompany("VZprogs")]
+[assembly: AssemblyProduct("ClassWork8")]
+[assembly: AssemblyCopyright("Copyright Vizel Leonid © 2021")]
+[assembly: AssemblyTrademark("VZprogs")]
 [assembly: AssemblyCulture("")]
 
 // Установка значения False для параметра ComVisible делает типы в этой сборке невидимыми
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID представляет идентификатор typelib, если этот проект доступен из модели COM
-[assembly: Guid("862ca0be-297f-4dad-af2d-aaa61457a0cb")]
+[assembly: Guid("5b73a178-41ce-4443-a4ea-22f1702833cd")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //

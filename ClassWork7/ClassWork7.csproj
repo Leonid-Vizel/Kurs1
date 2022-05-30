@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{13370FB7-44CB-49D6-8549-98CEF3D71437}</ProjectGuid>
+    <ProjectGuid>{D9684697-9771-4656-A581-191ED676183E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ClassWork7</RootNamespace>
-    <AssemblyName>ClassWork7</AssemblyName>
+    <RootNamespace>ClassWork6</RootNamespace>
+    <AssemblyName>ClassWork6</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,10 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BankAccount.cs" />
-    <Compile Include="BankTrasaction.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Song.cs" />
+    <Compile Include="Worker.cs" />
+    <Compile Include="WorkerTask.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

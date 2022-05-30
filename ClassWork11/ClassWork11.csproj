@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3521F8A9-1FFA-4C9C-BE0E-59002ABC64E4}</ProjectGuid>
+    <ProjectGuid>{90F8AD82-6767-4FDA-8AA2-17A6DA153C96}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ClassWork11</RootNamespace>
-    <AssemblyName>ClassWork11</AssemblyName>
+    <RootNamespace>ClassWork10</RootNamespace>
+    <AssemblyName>ClassWork10</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -19,7 +19,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>TRACE;DEBUG;DEBUG_ACCOUNT</DefineConstants>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
@@ -43,16 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Attributes\DeveloperInfoAttribute.cs" />
-    <Compile Include="Attributes\DevelpmentInfoAttribute.cs" />
-    <Compile Include="FromLastTasks\BankAccount.cs" />
-    <Compile Include="FromLastTasks\BankTrasaction.cs" />
+    <Compile Include="Bank\BankAccount.cs" />
+    <Compile Include="Bank\BankTrasaction.cs" />
+    <Compile Include="Books\Book.cs" />
+    <Compile Include="Books\BookContainer.cs" />
+    <Compile Include="Building.cs" />
+    <Compile Include="BuildingCollection.cs" />
+    <Compile Include="Numerics\Complex.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="FromLastTasks\Rational.cs" />
+    <Compile Include="Numerics\Rational.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -7,6 +7,7 @@
         private Song prev; //связь с предыдущей песней в списке
         public static Song Parse(string input)
         {
+
             string[] splitArray = input.Split(' ');
             if (splitArray.Length == 2)
             {
@@ -17,18 +18,13 @@
                 return null;
             }
         }
+
         public static Song Default => new Song("DefaultName", "DefaultAuthor");
         public Song(string name, string author, Song prev = null)
         {
             this.name = name;
             this.author = author;
             this.prev = prev;
-        }
-        public Song()
-        {
-            name = "DefaultName";
-            author = "DefaultAuthor";
-            prev = null;
         }
         public string GetName() => name;
         public string GetAuthor() => author;
@@ -39,15 +35,17 @@
         public string Title => $"{name} {author}";
         public override bool Equals(object d)
         {
-            if (d is Song)
-            {
-                Song compare = (Song)d;
-                return (compare.name.Equals(name)) && (compare.author.Equals(author));
-            }
-            else
-            {
-                return false;
-            }
+            bool ret = (d as Song).name.Equals(name);
+            return ret;
+            //if (d is Song)
+            //{
+            //    Song compare = (Song)d;
+            //    return (compare.name.Equals(name)) && (compare.author.Equals(author));
+            //}
+            //else
+            //{
+            //    return false;
+            //}
         }
         public override string ToString() => $"Инормация о песне: {Title}\nНаименование: {name}\nАвтор: {author}";
     }

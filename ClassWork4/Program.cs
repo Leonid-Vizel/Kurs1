@@ -198,10 +198,10 @@ namespace ClassWork4
                     Console.ForegroundColor = ConsoleColor.White;
                     Console.Clear();
                     Console.WriteLine("Неправильно! Ожидайте 3 секунды и повторите ещё раз!");
-                    System.Timers.Timer t = new System.Timers.Timer(3000); //В конструкторе вводим кол-во миллисекунд ожидания (3000мс = 3с)
-                    t.Elapsed += OnElapsed; //Привязываем событие
-                    t.AutoReset = false; //выключаем автоматический рестарт таймера
-                    t.Start(); //Стартуем таймер
+                    System.Timers.Timer timer = new System.Timers.Timer(3000); //В конструкторе вводим кол-во миллисекунд ожидания (3000мс = 3с)
+                    timer.Elapsed += OnElapsed; //Привязываем событие
+                    timer.AutoReset = false; //выключаем автоматический рестарт таймера
+                    timer.Start(); //Стартуем таймер
                 }
             }
             else

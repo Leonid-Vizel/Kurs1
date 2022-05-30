@@ -1,5 +1,5 @@
-﻿#define DEBUG_ACCOUNT
-using System;
+﻿using System;
+using System.Collections.Generic;
 
 namespace ClassWork11
 {
@@ -7,36 +7,54 @@ namespace ClassWork11
     {
         static void Main(string[] args)
         {
-            PrintTaskNumber(14.1);
-            new BankAccount(accountType.Current).DumpToScreen();
-            PrintTaskNumber(14.2);
-            foreach (Attribute attr in typeof(Rational).GetCustomAttributes(false))
+            List<SimpleDelegate> dels = new List<SimpleDelegate>()
             {
-                if (attr is DeveloperInfoAttribute)
-                {
-                    DeveloperInfoAttribute devAttr = attr as DeveloperInfoAttribute;
-                    Console.WriteLine($"{devAttr.DevName} {devAttr.DevTime:dd.MM.yyyy HH:mm:ss}");
-                }
-            }
-            PrintTaskNumber(14.1);
-            foreach (Attribute attr in typeof(BankAccount).GetCustomAttributes(false))
+                rationalTest1,
+                rationalTest2,
+                complexTest1,
+                booksTest
+            };
+            foreach (SimpleDelegate del in dels)
             {
-                if (attr is DevelopementInfoAttribute)
-                {
-                    DevelopementInfoAttribute devAttr = attr as DevelopementInfoAttribute;
-                    Console.WriteLine($"Имя:{devAttr.DevName} Организация:{devAttr.DevOrg}");
-                }
+                del.Invoke();
+                Console.WriteLine("_________________________");
             }
-            Console.ReadLine();
+            Console.ReadKey();
         }
 
-        private static void PrintTaskNumber(double num)
+        private static void rationalTest1() => Console.WriteLine($"1.234 = {(Rational)1.234}");
+
+        private static void rationalTest2()
         {
-            Console.BackgroundColor = ConsoleColor.Green;
-            Console.ForegroundColor = ConsoleColor.Black;
-            Console.WriteLine($"Задание {num}:");
-            Console.BackgroundColor = ConsoleColor.Black;
-            Console.ForegroundColor = ConsoleColor.White;
+            Rational rat1 = new Rational(6, 12);
+            Rational rat2 = new Rational(1, 2);
+            Rational rat3 = new Rational(12, 6);
+            Console.WriteLine($"Первое число: {rat1} Хеш-код: {rat1.GetHashCode()}");
+            Console.WriteLine($"Второе число: {rat2} Хеш-код: {rat2.GetHashCode()}");
+            Console.WriteLine($"Equals: {rat1.Equals(rat2)} | Равенство: {rat1 == rat2}");
+            Console.WriteLine($"Третье число: {rat3} Хеш-код: {rat3.GetHashCode()}");
         }
+
+        private static void complexTest1()
+        {
+            Complex comp1 = new Complex(3, -2);
+            Complex comp2 = new Complex(1, 4);
+            Console.WriteLine($"{comp1} + {comp2} = {comp1 + comp2}");
+            Console.WriteLine($"({comp1})({comp2}) = {comp1 * comp2}");
+        }
+
+        private static void booksTest()
+        {
+            BookContainer container = new BookContainer();
+            container.books.Add(new Book("a","b","c"));
+            container.books.Add(new Book("b", "c", "a"));
+            container.books.Add(new Book("c", "a", "b"));
+            container.SortLambda(x=>x.author);
+            Console.WriteLine(container);
+            container.SortLambda(Book.GetPublisher);
+            Console.WriteLine(container);
+        }
+
+        public delegate void SimpleDelegate();
     }
 }

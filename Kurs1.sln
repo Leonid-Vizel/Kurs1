@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.1.32210.238
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassWork1", "ClassWork1\ClassWork1.csproj", "{3560E6D4-D3FE-4036-B414-5F96B426D658}"
 EndProject
@@ -33,25 +33,29 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork5", "HomeWork5\Home
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metodichka5", "Metodichka5\Metodichka5.csproj", "{18423676-D75F-418F-A579-127CE4D79AEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassWork6", "ClassWork6\ClassWork6.csproj", "{D9684697-9771-4656-A581-191ED676183E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassWork7", "ClassWork7\ClassWork7.csproj", "{D9684697-9771-4656-A581-191ED676183E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassWork7", "ClassWork7\ClassWork7.csproj", "{13370FB7-44CB-49D6-8549-98CEF3D71437}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassWork8", "ClassWork8\ClassWork8.csproj", "{13370FB7-44CB-49D6-8549-98CEF3D71437}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManager", "TaskManager\TaskManager.csproj", "{33854023-818A-44DA-BA16-D6CF933686E8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helloween", "Helloween\Helloween.csproj", "{2AF68136-2F62-47B4-929C-37B6BCE55017}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassWork8", "ClassWork8\ClassWork8.csproj", "{5B73A178-41CE-4443-A4EA-22F1702833CD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassWork9", "ClassWork9\ClassWork9.csproj", "{5B73A178-41CE-4443-A4EA-22F1702833CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassWork11", "ClassWork11\ClassWork11.csproj", "{3521F8A9-1FFA-4C9C-BE0E-59002ABC64E4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassWork12", "ClassWork12\ClassWork12.csproj", "{3521F8A9-1FFA-4C9C-BE0E-59002ABC64E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassWork10", "ClassWork10\ClassWork10.csproj", "{90F8AD82-6767-4FDA-8AA2-17A6DA153C96}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassWork11", "ClassWork11\ClassWork11.csproj", "{90F8AD82-6767-4FDA-8AA2-17A6DA153C96}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sortings", "Sortings\Sortings.csproj", "{05A9250B-8DD6-4D58-ABDB-5E286ED36F7C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabricsLib", "BankAccountLib\FabricsLib.csproj", "{9F06FABF-5607-4B89-A278-C0487A59940C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassWork9", "ClassWork9\ClassWork9.csproj", "{862CA0BE-297F-4DAD-AF2D-AAA61457A0CB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassWork10", "ClassWork10\ClassWork10.csproj", "{862CA0BE-297F-4DAD-AF2D-AAA61457A0CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassWork6", "ClassWork6\ClassWork6.csproj", "{869D1CB9-5D52-4910-9A8C-8731EDD60A86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecialTask", "SpecialTask\SpecialTask.csproj", "{E7CF018E-298C-443C-BC4F-37B78373D53D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +163,14 @@ Global
 		{862CA0BE-297F-4DAD-AF2D-AAA61457A0CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{862CA0BE-297F-4DAD-AF2D-AAA61457A0CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{862CA0BE-297F-4DAD-AF2D-AAA61457A0CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{869D1CB9-5D52-4910-9A8C-8731EDD60A86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{869D1CB9-5D52-4910-9A8C-8731EDD60A86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{869D1CB9-5D52-4910-9A8C-8731EDD60A86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{869D1CB9-5D52-4910-9A8C-8731EDD60A86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7CF018E-298C-443C-BC4F-37B78373D53D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7CF018E-298C-443C-BC4F-37B78373D53D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7CF018E-298C-443C-BC4F-37B78373D53D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7CF018E-298C-443C-BC4F-37B78373D53D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
