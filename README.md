@@ -9,15 +9,20 @@
 + Работа #2
   + [ClassWork2](https://github.com/Leonid-Vizel/Kurs1/tree/master/ClassWork2)
   + [HomeWork2](https://github.com/Leonid-Vizel/Kurs1/tree/master/HomeWork2)
+  + [Metodichka2](https://github.com/Leonid-Vizel/Kurs1/tree/master/Metodichka2)
 + Работа #3
   + [ClassWork3](https://github.com/Leonid-Vizel/Kurs1/tree/master/ClassWork3)
   + [HomeWork3](https://github.com/Leonid-Vizel/Kurs1/tree/master/HomeWork3)
+  + [Metodichka3](https://github.com/Leonid-Vizel/Kurs1/tree/master/Metodichka3)
 + Работа #4
   + [ClassWork4](https://github.com/Leonid-Vizel/Kurs1/tree/master/ClassWork4)
   + [HomeWork4](https://github.com/Leonid-Vizel/Kurs1/tree/master/HomeWork4)
+  + [Metodichka4](https://github.com/Leonid-Vizel/Kurs1/tree/master/Metodichka4)
+  + [Interesnosti4](https://github.com/Leonid-Vizel/Kurs1/tree/master/Interesnosti4)
 + Работа #5
   + [ClassWork5](https://github.com/Leonid-Vizel/Kurs1/tree/master/ClassWork5)
   + [HomeWork5](https://github.com/Leonid-Vizel/Kurs1/tree/master/HomeWork5)
+  + [Metodichka5](https://github.com/Leonid-Vizel/Kurs1/tree/master/Metodichka5)
 + Работа #6
   + [ClassWork6](https://github.com/Leonid-Vizel/Kurs1/tree/master/ClassWork6)
   + [Special Task](https://github.com/Leonid-Vizel/Kurs1/tree/master/SpecialTask)
