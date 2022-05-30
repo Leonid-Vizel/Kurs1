@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<BaggageRepository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Location>Улица Пушкина Дом Колотушника</Location>
+  <BaggageCells id="0">
+    <WeightLimit>100</WeightLimit>
+    <BaggageInside Id="100" OwnerId="228">
+      <Weight>99</Weight>
+      <Color>Классный цвет)))</Color>
+      <Insides>Что-то одно</Insides>
+      <Insides>Что-то другое</Insides>
+      <Insides>Шлёпа)</Insides>
+    </BaggageInside>
+  </BaggageCells>
+  <BaggageCells id="1">
+    <WeightLimit>100</WeightLimit>
+    <BaggageInside Id="101" OwnerId="228">
+      <Weight>99</Weight>
+      <Color>Классный цвет)))</Color>
+      <Insides>Что-то одно</Insides>
+      <Insides>Что-то другое</Insides>
+      <Insides>Шлёпа)</Insides>
+    </BaggageInside>
+  </BaggageCells>
+  <BaggageCells id="2">
+    <WeightLimit>100</WeightLimit>
+    <BaggageInside Id="102" OwnerId="228">
+      <Weight>99</Weight>
+      <Color>Классный цвет)))</Color>
+      <Insides>Что-то одно</Insides>
+      <Insides>Что-то другое</Insides>
+      <Insides>Шлёпа)</Insides>
+    </BaggageInside>
+  </BaggageCells>
+  <Workers id="0">
+    <Name>Вася Пупкин</Name>
+    <Age>22</Age>
+    <Sex>Man</Sex>
+    <Profession>Security</Profession>
+  </Workers>
+  <Workers id="1">
+    <Name>Вера Иванова</Name>
+    <Age>23</Age>
+    <Sex>Woman</Sex>
+    <Profession>Cashier</Profession>
+  </Workers>
+  <Workers id="2">
+    <Name>Абоба Абибов</Name>
+    <Age>24</Age>
+    <Sex>TransGender</Sex>
+    <Profession>Security</Profession>
+  </Workers>
+  <Visitors id="3">
+    <Name>1Вася Пупкин1</Name>
+    <Age>22</Age>
+    <Sex>Man</Sex>
+    <Cash>100</Cash>
+    <Baggage Id="0" OwnerId="3">
+      <Weight>25</Weight>
+      <Color>#008800</Color>
+      <Insides>Ботинок</Insides>
+      <Insides>Носок</Insides>
+    </Baggage>
+    <Aim>Give</Aim>
+    <Days>10</Days>
+  </Visitors>
+  <Visitors id="4">
+    <Name>2Вера Иванова2</Name>
+    <Age>23</Age>
+    <Sex>Woman</Sex>
+    <Cash>100</Cash>
+    <Baggage Id="0" OwnerId="4">
+      <Weight>25</Weight>
+      <Color>#008800</Color>
+      <Insides>Куртка</Insides>
+      <Insides>Кружка</Insides>
+    </Baggage>
+    <Aim>Give</Aim>
+    <Days>10</Days>
+  </Visitors>
+  <Visitors id="5">
+    <Name>3Абоба Абибов3</Name>
+    <Age>24</Age>
+    <Sex>TransGender</Sex>
+    <Cash>100</Cash>
+    <Baggage Id="0" OwnerId="5">
+      <Weight>25</Weight>
+      <Color>#008800</Color>
+      <Insides>Ковёр</Insides>
+      <Insides>Микрофон</Insides>
+    </Baggage>
+    <Aim>Give</Aim>
+    <Days>10</Days>
+  </Visitors>
+  <QueueLimit>12345</QueueLimit>
+  <Profit>1000000</Profit>
+</BaggageRepository>
